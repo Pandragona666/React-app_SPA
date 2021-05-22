@@ -1,0 +1,35 @@
+div.app {
+  display: flex;
+  width: 90%;
+  min-height: 100vh;
+  margin: 0  auto;
+  flex-direction: column;
+  color: #222
+}
+
+header {
+  flex-basis: 30vh;
+}
+
+main {
+  padding: 30px 0;
+  display: flex;
+  flex-grow: 1;
+}
+
+aside {
+  min-width: 200px;
+}
+
+section.page {
+  flex-grow: 1;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
